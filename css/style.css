@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Acre';
+    src: url(../fonts/acre.woff) format('woff');
+}
+
+body {
+    font-family : Acre, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width : 900px;
+    height : 500px;
+    margin : 50px auto;
+    box-sizing: border-box;
+    position: relative;
+} 
+
+.left, .mid, .right {
+    height: 100%;
+}
+
+.left {
+    width : 48%;
+    left : 0;
+    background-color : #071820;
+    border-radius: 20px 0 0 20px;
+    border-right : 35px solid #B8A56B;
+    box-shadow : 10px 0 5px -5px black;
+    position: absolute;
+}
+
+.left .pic,
+.left .pic img {
+    width : 150px;
+    height : 150px;
+    margin : 30% auto 0;
+    border-radius: 50%;
+}
+
+.left .pic img {
+    border : 5px solid #eaeaea;
+    transform: none;
+    margin : auto;
+    box-sizing: border-box;
+    transition : all 1s ease 1ms;
+}
+
+.left .pic img:hover {
+    border : 1px solid #eaeaea;
+    transform : rotate(-720deg);
+}
+
+.left .caption {
+    width : 50%;
+    margin : 10% auto;
+    border-bottom : 2px solid #eaeaea;
+    padding-bottom : 10px;
+}
+
+.caption p {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    color : #eaeaea;
+    letter-spacing: 1px;
+}
+
+.right {
+    width : 49%;
+    float : right;
+    background-color : #95752A;
+    border-radius: 0 20px 20px 0;
+}
+
+.right .font-awesome {
+    width : 20px;
+    float : left;
+    margin : 150px 35px;
+}
+
+.right .font-awesome span {
+    font-size: 15px;
+    margin-top : 20px;
+    color : #071820;
+}
+
+.right .font-awesome .fa,
+.right .font-awesome .fab {
+    color : #ddd;
+}
+
+.right .font-awesome i {
+    transform : none;
+    transition : all 1s ease 1ms;
+}
+
+.right .font-awesome i:hover {
+    transform : rotate(-720deg);
+}
+
+.right .kotak {
+    width : 80%;
+    margin : 150px 0 0 90px;
+
+}
+
+.right .kotak p {
+    padding : 10px;
+    color : #fff;
+}
+
+.right .kotak a {
+    color : inherit;
+}
+
+.right .email {
+    margin-top : -5px;
+}
+
+.right .phone {
+    margin-top : 15px;
+}
+
+.right .ig {
+    margin-top : 14px;
+}
+
+.mid2 {
+    width : 70px;
+    height : 50%;
+    position : absolute;
+    top : 25%;
+    right : 433px;
+    background-color : #95752A;
+    border-radius : 30px 0 0 30px;
+    border-right: none;
+    z-index: 999;
+}
