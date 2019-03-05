@@ -105,7 +105,7 @@ a {
 
 .right .kotak {
     width : 80%;
-    margin : 150px 0 0 90px;
+    margin : 150px 0 0 70px;
 
 }
 
@@ -119,7 +119,7 @@ a {
 }
 
 .right .email {
-    margin-top : none;
+    margin-top : -15px;
 }
 
 .right .phone {
@@ -127,7 +127,7 @@ a {
 }
 
 .right .ig {
-    margin-top : 14px;
+    margin-top : 15px;
 }
 
 .mid2 {
@@ -140,4 +140,118 @@ a {
     border-radius : 30px 0 0 30px;
     border-right: none;
     z-index: 999;
+}
+
+@media (max-width : 408px) {
+    
+    
+    .container {
+        margin : 0 auto;
+        /* border : 1px solid red; */
+        width : 100%;
+        height: auto;
+    }
+    .left {
+        border : none;
+        border-radius : 0;
+        width : 100%;
+        float : none;
+        height : auto;
+        border-bottom : 35px solid #B8A56B;
+        box-shadow : 10px 0 5px -5px black;
+        margin-top : -350px;
+        /* display : none; */
+    }
+
+    .mid2 {
+        display: none;
+    }
+    
+    .right {
+        float : none;
+        width : 100%;
+        height : auto;
+        border-radius: 0;
+        margin-top : 350px;
+    }
+
+    .right .font-awesome {
+        /* border : 1px solid red; */
+        float :none;
+        margin : 0 30px;
+        padding : 100px 0;
+        margin-top : 10px;
+    }
+
+    .right .kotak {
+        /* border : 1px solid green; */
+        margin : -400px 0 0 70px;
+        padding : 100px;
+        padding-right : 0;
+        padding-left : 0;
+    }
+
+    .right .kotak .email {
+        margin-top : 1px;
+    }
+
+    .clear {
+        clear : both;
+    }
+}
+
+@media (min-width : 409px) and (max-width : 960px) {
+    .container {
+        margin : 0 auto;
+        /* border : 1px solid red; */
+        width : 100%;
+        height: auto;
+    }
+    .left {
+        border : none;
+        border-radius : 0;
+        width : 100%;
+        float : none;
+        height : auto;
+        border-bottom : 35px solid #B8A56B;
+        box-shadow : 10px 0 5px -5px black;
+        margin-top : -350px;
+        /* display : none; */
+    }
+
+    .mid2 {
+        display: none;
+    }
+    
+    .right {
+        float : none;
+        width : 100%;
+        height : auto;
+        border-radius: 0;
+        margin-top : 350px;
+    }
+
+    .right .font-awesome {
+        /* border : 1px solid red; */
+        float :none;
+        margin : 0 30px;
+        padding : 100px 0;
+        margin-top : 10px;
+    }
+
+    .right .kotak {
+        /* border : 1px solid green; */
+        margin : -400px 0 0 70px;
+        padding : 100px;
+        padding-right : 0;
+        padding-left : 0;
+    }
+
+    .right .kotak .email {
+        margin-top : 1px;
+    }
+
+    .clear {
+        clear : both;
+    }
 }
