@@ -118,16 +118,20 @@ a {
     color : inherit;
 }
 
-.right .email {
-    margin-top : -15px;
+.right p.address {
+    margin-top: 15px;
 }
 
-.right .phone {
-/*     margin-top : 15px; */
+.right p.email {
+    margin-top : 15px;
 }
 
-.right .ig {
-/*     margin-top : 15px; */
+.right p.phone {
+    margin-top : 15px;
+}
+
+.right p.ig {
+    margin-top : 15px;
 }
 
 .mid2 {
