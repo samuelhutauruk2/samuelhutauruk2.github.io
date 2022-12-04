@@ -152,7 +152,7 @@ a {
     
     .container {
         margin : 300px auto;
-        border : 1px solid red;
+/*         border : 1px solid red; */
         width : 100%;
         height: auto;
     }
